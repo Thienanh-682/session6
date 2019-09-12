@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     <script>
+         let num1 = parseInt(prompt("Nhập number1"));
+         let num2 = parseInt(prompt("Nhập number2"));
+         let num3 = parseInt(prompt("Nhập number3"));
+         function check(number1,number2,number3) {
+             if (number1<number2 && number1<number3) {
+                 alert("Số nhỏ nhất là" + number1)
+             } else if (number2<number1 && number2<number3) {
+                 alert("Số nhỏ nhất là" + number2)
+             } else {
+                 alert("Số nhỏ nhất là" + number3)
+             }
+         }
+         check(num1,num2,num3);
+     </script>
+</body>
+</html>
